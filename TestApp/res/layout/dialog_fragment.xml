@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:orientation="horizontal"
+    android:focusableInTouchMode="true"  >
+    
+    <ImageView	android:id="@+id/telephone_mdpi_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/telephone_mdpi" />
+    
+    <TextView
+        android:id="@+id/display_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="incoming_call_details" />
+    
+</LinearLayout>
